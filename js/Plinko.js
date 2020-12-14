@@ -5,7 +5,7 @@ class Plinko {
             friction: 0,
             isStatic:true
         }
-        this.r = 10;
+        this.r = 7;
         this.body = Bodies.circle(x, y, this.r, options);
         
         World.add(world, this.body);
