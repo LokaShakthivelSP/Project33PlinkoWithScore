@@ -1,4 +1,4 @@
-class Ground{
+class Rectangle{
     constructor(x,y,w,h) {
       var options = {
           isStatic: true
@@ -11,7 +11,7 @@ class Ground{
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("white");
-    rect(pos.x, pos.y, this.w,this.h);
+      fill("brown");
+      rect(pos.x, pos.y, this.w,this.h);
     }
   };

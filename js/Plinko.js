@@ -20,7 +20,7 @@ class Plinko {
         rotate(angle);
         imageMode(CENTER);
         noStroke();
-        fill("white");
+        fill("#fc7700");
         ellipseMode(RADIUS);
         ellipse(0,0,this.r,this.r);
         pop();
